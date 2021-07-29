@@ -52,6 +52,14 @@ class provider implements
         return 'privacy:metadata';
     }
 
+    /**
+     * Get context id.
+     *
+     * @param string $paymentarea
+     * @param int $itemid
+     * @return int|null
+     * @throws \dml_exception
+     */
     public static function get_contextid_for_payment(string $paymentarea, int $itemid): ?int {
         global $DB;
 
@@ -69,6 +77,11 @@ class provider implements
         return $contextid ?: null;
     }
 
+    /**
+     * Get users in context.
+     *
+     * @param userlist $userlist
+     */
     public static function get_users_in_context(userlist $userlist) {
         $context = $userlist->get_context();
 

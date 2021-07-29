@@ -15,11 +15,13 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Fee enrolment plugin.
+ * Feed enrolment plugin.
  *
  * This plugin allows you to set up paid courses.
  *
  * @package    enrol_feed
- * @copyright  2019 Shamim Rezaie <shamim@moodle.com>
+ * @copyright  2021 Catalyst IT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
+defined('MOODLE_INTERNAL') || die();

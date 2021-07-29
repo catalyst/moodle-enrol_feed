@@ -18,7 +18,6 @@
  * Unit tests for the enrol_feed's payment subsystem callback implementation.
  *
  * @package    enrol_feed
- * @category   test
  * @copyright  2021 Shamim Rezaie <shamim@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

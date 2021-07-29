@@ -18,7 +18,6 @@
  * Payment subsystem callback implementation for enrol_feed.
  *
  * @package    enrol_feed
- * @category   payment
  * @copyright  2020 Shamim Rezaie <shamim@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
